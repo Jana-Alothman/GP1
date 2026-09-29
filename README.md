@@ -1,14 +1,24 @@
-# GP1
+# Faseeh (فصيح) — Arabic Text Readability Classification & Simplification
 
-Faseeh (فصيح) — Arabic Text Readability Classification & Simplification
+Introduction
 
-Graduation Project (GP1) — King Saud University, College of Computer and Information Sciences.
+Much of the written Arabic content available today is too complex for a large group of readers, including school students, non-native speakers, and people with reading difficulties. Faseeh addresses this by combining two NLP tasks in one pipeline:
 
-Faseeh is an NLP project that makes Arabic text easier to read. It has two stages:
+1- Readability classification — predicts how difficult an Arabic sentence is (levels 1–4).
 
-1-Readability classification: predicts how difficult an Arabic sentence is (levels 1–4).
+2- Text simplification — rewrites a sentence so it is easier to understand.
 
-
-2-Text simplification: rewrites the sentence to match a target reading level.
 Arabic text → Readability Classifier → Text Simplifier → Simplified text
 
+The goal is to give students, educators, and general readers a tool that can assess and reduce the linguistic complexity of Arabic text.
+
+
+Technologies Used
+
+-Language: Python 3
+
+-Environment: Google Colab (Jupyter notebooks)
+
+-Classical ML: scikit-learn (TF-IDF, SVM, Random Forest, Decision Tree, XGBoost)
+
+-Deep Learning: MSE Regression, Weighted Cross-Entropy, CORAL
